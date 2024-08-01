@@ -1,0 +1,20 @@
+[11.450s] Invoking command in '/home/robo2w/ros2_ws/build/ros2_ws_examples': PYTHONPATH=/home/robo2w/ros2_ws/build/ros2_ws_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robo2w/ros2_ws/build/ros2_ws_examples/build --no-deps symlink_data
+[15.088s] running develop
+[15.096s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[15.097s]   warnings.warn(
+[16.980s] running egg_info
+[16.983s] writing ros2_ws_examples.egg-info/PKG-INFO
+[16.984s] writing dependency_links to ros2_ws_examples.egg-info/dependency_links.txt
+[16.987s] writing entry points to ros2_ws_examples.egg-info/entry_points.txt
+[16.989s] writing requirements to ros2_ws_examples.egg-info/requires.txt
+[16.991s] writing top-level names to ros2_ws_examples.egg-info/top_level.txt
+[17.012s] reading manifest file 'ros2_ws_examples.egg-info/SOURCES.txt'
+[17.023s] writing manifest file 'ros2_ws_examples.egg-info/SOURCES.txt'
+[17.043s] running build_ext
+[17.045s] Creating /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2-ws-examples.egg-link (link to .)
+[17.055s] Installing listener script to /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/ros2_ws_examples
+[17.056s] Installing talker script to /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/ros2_ws_examples
+[17.060s] 
+[17.061s] Installed /home/robo2w/ros2_ws/build/ros2_ws_examples
+[17.062s] running symlink_data
+[17.383s] Invoked command in '/home/robo2w/ros2_ws/build/ros2_ws_examples' returned '0': PYTHONPATH=/home/robo2w/ros2_ws/build/ros2_ws_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robo2w/ros2_ws/build/ros2_ws_examples/build --no-deps symlink_data

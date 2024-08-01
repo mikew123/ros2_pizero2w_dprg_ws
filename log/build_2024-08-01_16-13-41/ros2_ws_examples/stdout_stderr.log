@@ -1,0 +1,18 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing ros2_ws_examples.egg-info/PKG-INFO
+writing dependency_links to ros2_ws_examples.egg-info/dependency_links.txt
+writing entry points to ros2_ws_examples.egg-info/entry_points.txt
+writing requirements to ros2_ws_examples.egg-info/requires.txt
+writing top-level names to ros2_ws_examples.egg-info/top_level.txt
+reading manifest file 'ros2_ws_examples.egg-info/SOURCES.txt'
+writing manifest file 'ros2_ws_examples.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2-ws-examples.egg-link (link to .)
+
+Installed /home/robo2w/ros2_ws/build/ros2_ws_examples
+running symlink_data
+symbolically linking /home/robo2w/ros2_ws/build/ros2_ws_examples/resource/ros2_ws_examples -> /home/robo2w/ros2_ws/install/ros2_ws_examples/share/ament_index/resource_index/packages
+symbolically linking /home/robo2w/ros2_ws/build/ros2_ws_examples/package.xml -> /home/robo2w/ros2_ws/install/ros2_ws_examples/share/ros2_ws_examples

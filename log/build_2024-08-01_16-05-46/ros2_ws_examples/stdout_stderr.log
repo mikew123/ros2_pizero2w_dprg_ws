@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/ros2_ws_examples/ros2_ws_examples.egg-info
+writing ../../build/ros2_ws_examples/ros2_ws_examples.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2_ws_examples/ros2_ws_examples.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2_ws_examples/ros2_ws_examples.egg-info/entry_points.txt
+writing requirements to ../../build/ros2_ws_examples/ros2_ws_examples.egg-info/requires.txt
+writing top-level names to ../../build/ros2_ws_examples/ros2_ws_examples.egg-info/top_level.txt
+writing manifest file '../../build/ros2_ws_examples/ros2_ws_examples.egg-info/SOURCES.txt'
+reading manifest file '../../build/ros2_ws_examples/ros2_ws_examples.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros2_ws_examples/ros2_ws_examples.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robo2w/ros2_ws/build/ros2_ws_examples/build
+creating /home/robo2w/ros2_ws/build/ros2_ws_examples/build/lib
+creating /home/robo2w/ros2_ws/build/ros2_ws_examples/build/lib/ros2_ws_examples
+copying ros2_ws_examples/__init__.py -> /home/robo2w/ros2_ws/build/ros2_ws_examples/build/lib/ros2_ws_examples
+copying ros2_ws_examples/listener.py -> /home/robo2w/ros2_ws/build/ros2_ws_examples/build/lib/ros2_ws_examples
+copying ros2_ws_examples/talker.py -> /home/robo2w/ros2_ws/build/ros2_ws_examples/build/lib/ros2_ws_examples
+running install
+running install_lib
+creating /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2_ws_examples
+copying /home/robo2w/ros2_ws/build/ros2_ws_examples/build/lib/ros2_ws_examples/__init__.py -> /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2_ws_examples
+copying /home/robo2w/ros2_ws/build/ros2_ws_examples/build/lib/ros2_ws_examples/listener.py -> /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2_ws_examples
+copying /home/robo2w/ros2_ws/build/ros2_ws_examples/build/lib/ros2_ws_examples/talker.py -> /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2_ws_examples
+byte-compiling /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2_ws_examples/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2_ws_examples/listener.py to listener.cpython-310.pyc
+byte-compiling /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2_ws_examples/talker.py to talker.cpython-310.pyc
+running install_data
+creating /home/robo2w/ros2_ws/install/ros2_ws_examples/share/ament_index
+creating /home/robo2w/ros2_ws/install/ros2_ws_examples/share/ament_index/resource_index
+creating /home/robo2w/ros2_ws/install/ros2_ws_examples/share/ament_index/resource_index/packages
+copying resource/ros2_ws_examples -> /home/robo2w/ros2_ws/install/ros2_ws_examples/share/ament_index/resource_index/packages
+copying package.xml -> /home/robo2w/ros2_ws/install/ros2_ws_examples/share/ros2_ws_examples
+running install_egg_info
+Copying ../../build/ros2_ws_examples/ros2_ws_examples.egg-info to /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2_ws_examples-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/robo2w/ros2_ws/build/ros2_ws_examples/install.log'
