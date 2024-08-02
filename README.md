@@ -15,5 +15,5 @@ Wait many minutes for it to flash, then install on the Pi Zero board and power i
 It will take many minutes to initally boot and there is no light that flashes to let you know when so wait 10 minutes.</br>
 You should be able to SSH into the Pi Zero using a Windows power shell window "ssh robo2w@robo2w.local", enter password.
 .... You should get a prompt like "robo2w@robo2w>".</br>
-We will need to add 4G of swap memory to make the Pi Zero run smoothly. Use the tutorial <https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-20-04> but select 4G of swap instead of 1G </br>
+We will need to add 4G of swap memory to make the Pi Zero run smoothly. Use the tutorial <https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-20-04> but select 4G of swap instead of 1G OR <https://linuxize.com/post/how-to-add-swap-space-on-ubuntu-20-04/></br>
 ## ROS2 Iron installation
