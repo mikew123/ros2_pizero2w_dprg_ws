@@ -10,11 +10,10 @@ Install the Raspberry Imager on windows and have a 32G SSD card and a card inter
 <https://www.raspberrypi.com/news/raspberry-pi-imager-imaging-utility/>
 Insert the SSD card and start the pi-imager.</br>
 Select DEVICE:Pi Zero 2W, OS: Other>Ubuntu>"22.04 server 64 bit"</br>
-Chose our storage device SSD card. Chose edit options and add robo2w as the user name and a password of your choosing, configure wifi and enable SSH.</br>
-TODO: Set Linux machine name to robo2w (same as user name!)
+Chose our storage device SSD card. Chose edit options and add robo2w as the user name and a password of your choosing, configure wifi and enable SSH. Set Linux host name to robo2w (same as user name!)</br>
 Wait many minutes for it to flash, then install on the Pi Zero board and power it up.</br>
 It will take many minutes to initally boot and there is no light that flashes to let you know when so wait 10 minutes.</br>
 You should be able to SSH into the Pi Zero using a Windows power shell window "ssh robo2w@robo2w.local", enter password.
 .... You should get a prompt like "robo2w@robo2w>".</br>
-We will need to add 4G of swap memory to make the Pi Zero run smoothly. Use the tutorial <https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-20-04> but select 4G of swap instead of 1G </br>
+We will need to add 4G of swap memory to make the Pi Zero run smoothly. Use the tutorial <https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-20-04> but select 4G of swap instead of 1G OR <https://linuxize.com/post/how-to-add-swap-space-on-ubuntu-20-04/></br>
 ## ROS2 Iron installation
