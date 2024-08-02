@@ -1,3 +1,4 @@
 [console_scripts]
+hcsr04_node = robo2w_stuff.hcsr04_node:main
 led_node = robo2w_stuff.led_node:main
 

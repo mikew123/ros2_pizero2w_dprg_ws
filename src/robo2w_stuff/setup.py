@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'led_node = robo2w_stuff.led_node:main',
+            'hcsr04_node = robo2w_stuff.hcsr04_node:main',
         ],
     },
 )

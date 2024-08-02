@@ -1,7 +1,8 @@
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import String
+from std_msgs.msg import Float32
 from gpiozero import LED
+
 
 
 class LedNode(Node):
@@ -9,24 +10,31 @@ class LedNode(Node):
     A node with a single subscriber and drives an LED.
 
     """
-    led = LED(4)
-
+    
     def __init__(self):
         super().__init__('led_node')
-        self.led_msg_sub = self.create_subscription(String, 'led_msg', self.led_msg_callback, 10)
-        self.timer = self.create_timer((1.0), self.timer_callback)
+
+        self.led = LED(4)
+
+        self.hcsr04_msg_sub = self.create_subscription(Float32, 'hcsr04_msg', self.hcsr04_msg_callback, 10)
+        self.timer = self.create_timer((1/4.0), self.timer_callback)
 
         self.led.on()
 
         self.get_logger().info("led_node started")
 
-    def led_msg_callback(self, msg):
-        self.get_logger().info('LED msg: "%s"' % msg.data)
+    def hcsr04_msg_callback(self, msg):
+        distance = msg.data
+        blink_on = (1 - distance)/4
+        self.led.blink(blink_on, 0, 1)
+
+        self.get_logger().info(f"{distance=}")
 
     def timer_callback(self):
-        self.get_logger().info("led_node timer")
+        #self.get_logger().info("led_node timer")
         #self.led.toggle()
-        self.led.blink(0.5, 0, 1)
+        #self.led.blink(0.1, 0, 1)
+        pass
 
 def main(args=None):
 

@@ -10,6 +10,7 @@ setup.py
 ../../build/robo2w_stuff/robo2w_stuff.egg-info/zip-safe
 resource/robo2w_stuff
 robo2w_stuff/__init__.py
+robo2w_stuff/hcsr04_node.py
 robo2w_stuff/led_node.py
 robo2w_stuff.egg-info/PKG-INFO
 robo2w_stuff.egg-info/SOURCES.txt
