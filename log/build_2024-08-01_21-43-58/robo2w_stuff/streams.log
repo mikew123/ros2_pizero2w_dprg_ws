@@ -1,0 +1,33 @@
+[11.171s] Invoking command in '/home/robo2w/ros2_ws/src/robo2w_stuff': PYTHONPATH=/home/robo2w/ros2_ws/build/robo2w_stuff/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo2w/ros2_ws/install/robo2w_stuff/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robo2w_stuff build --build-base /home/robo2w/ros2_ws/build/robo2w_stuff/build install --record /home/robo2w/ros2_ws/build/robo2w_stuff/install.log --single-version-externally-managed install_data
+[14.250s] running egg_info
+[14.257s] creating ../../build/robo2w_stuff/robo2w_stuff.egg-info
+[14.259s] writing ../../build/robo2w_stuff/robo2w_stuff.egg-info/PKG-INFO
+[14.261s] writing dependency_links to ../../build/robo2w_stuff/robo2w_stuff.egg-info/dependency_links.txt
+[14.263s] writing entry points to ../../build/robo2w_stuff/robo2w_stuff.egg-info/entry_points.txt
+[14.266s] writing requirements to ../../build/robo2w_stuff/robo2w_stuff.egg-info/requires.txt
+[14.267s] writing top-level names to ../../build/robo2w_stuff/robo2w_stuff.egg-info/top_level.txt
+[14.269s] writing manifest file '../../build/robo2w_stuff/robo2w_stuff.egg-info/SOURCES.txt'
+[14.286s] reading manifest file '../../build/robo2w_stuff/robo2w_stuff.egg-info/SOURCES.txt'
+[14.296s] writing manifest file '../../build/robo2w_stuff/robo2w_stuff.egg-info/SOURCES.txt'
+[14.298s] running build
+[14.299s] running build_py
+[14.301s] creating /home/robo2w/ros2_ws/build/robo2w_stuff/build
+[14.302s] creating /home/robo2w/ros2_ws/build/robo2w_stuff/build/lib
+[14.304s] creating /home/robo2w/ros2_ws/build/robo2w_stuff/build/lib/robo2w_stuff
+[14.306s] copying robo2w_stuff/__init__.py -> /home/robo2w/ros2_ws/build/robo2w_stuff/build/lib/robo2w_stuff
+[14.308s] running install
+[14.309s] running install_lib
+[14.315s] creating /home/robo2w/ros2_ws/install/robo2w_stuff/lib/python3.10/site-packages/robo2w_stuff
+[14.317s] copying /home/robo2w/ros2_ws/build/robo2w_stuff/build/lib/robo2w_stuff/__init__.py -> /home/robo2w/ros2_ws/install/robo2w_stuff/lib/python3.10/site-packages/robo2w_stuff
+[14.322s] byte-compiling /home/robo2w/ros2_ws/install/robo2w_stuff/lib/python3.10/site-packages/robo2w_stuff/__init__.py to __init__.cpython-310.pyc
+[14.325s] running install_data
+[14.328s] creating /home/robo2w/ros2_ws/install/robo2w_stuff/share/ament_index
+[14.329s] creating /home/robo2w/ros2_ws/install/robo2w_stuff/share/ament_index/resource_index
+[14.330s] creating /home/robo2w/ros2_ws/install/robo2w_stuff/share/ament_index/resource_index/packages
+[14.332s] copying resource/robo2w_stuff -> /home/robo2w/ros2_ws/install/robo2w_stuff/share/ament_index/resource_index/packages
+[14.333s] copying package.xml -> /home/robo2w/ros2_ws/install/robo2w_stuff/share/robo2w_stuff
+[14.335s] running install_egg_info
+[14.352s] Copying ../../build/robo2w_stuff/robo2w_stuff.egg-info to /home/robo2w/ros2_ws/install/robo2w_stuff/lib/python3.10/site-packages/robo2w_stuff-0.0.0-py3.10.egg-info
+[14.368s] running install_scripts
+[14.586s] writing list of installed files to '/home/robo2w/ros2_ws/build/robo2w_stuff/install.log'
+[14.875s] Invoked command in '/home/robo2w/ros2_ws/src/robo2w_stuff' returned '0': PYTHONPATH=/home/robo2w/ros2_ws/build/robo2w_stuff/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo2w/ros2_ws/install/robo2w_stuff/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robo2w_stuff build --build-base /home/robo2w/ros2_ws/build/robo2w_stuff/build install --record /home/robo2w/ros2_ws/build/robo2w_stuff/install.log --single-version-externally-managed install_data

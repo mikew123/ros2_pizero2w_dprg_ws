@@ -1,0 +1,20 @@
+[11.218s] Invoking command in '/home/robo2w/ros2_ws/build/robo2w_stuff': PYTHONPATH=/home/robo2w/ros2_ws/build/robo2w_stuff/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo2w/ros2_ws/install/robo2w_stuff/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robo2w/ros2_ws/build/robo2w_stuff/build --no-deps symlink_data --force
+[17.950s] running develop
+[17.963s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[17.964s]   warnings.warn(
+[20.867s] running egg_info
+[21.064s] writing robo2w_stuff.egg-info/PKG-INFO
+[21.071s] writing dependency_links to robo2w_stuff.egg-info/dependency_links.txt
+[21.077s] writing entry points to robo2w_stuff.egg-info/entry_points.txt
+[21.080s] writing requirements to robo2w_stuff.egg-info/requires.txt
+[21.082s] writing top-level names to robo2w_stuff.egg-info/top_level.txt
+[21.138s] reading manifest file 'robo2w_stuff.egg-info/SOURCES.txt'
+[21.155s] writing manifest file 'robo2w_stuff.egg-info/SOURCES.txt'
+[21.189s] running build_ext
+[21.192s] Creating /home/robo2w/ros2_ws/install/robo2w_stuff/lib/python3.10/site-packages/robo2w-stuff.egg-link (link to .)
+[21.207s] 
+[21.211s] Installed /home/robo2w/ros2_ws/build/robo2w_stuff
+[21.212s] running symlink_data
+[21.215s] symbolically linking /home/robo2w/ros2_ws/build/robo2w_stuff/resource/robo2w_stuff -> /home/robo2w/ros2_ws/install/robo2w_stuff/share/ament_index/resource_index/packages
+[21.222s] symbolically linking /home/robo2w/ros2_ws/build/robo2w_stuff/package.xml -> /home/robo2w/ros2_ws/install/robo2w_stuff/share/robo2w_stuff
+[21.719s] Invoked command in '/home/robo2w/ros2_ws/build/robo2w_stuff' returned '0': PYTHONPATH=/home/robo2w/ros2_ws/build/robo2w_stuff/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo2w/ros2_ws/install/robo2w_stuff/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robo2w/ros2_ws/build/robo2w_stuff/build --no-deps symlink_data --force

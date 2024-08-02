@@ -1,0 +1,4 @@
+[console_scripts]
+listener = ros2_ws_examples.listener:main
+talker = ros2_ws_examples.talker:main
+

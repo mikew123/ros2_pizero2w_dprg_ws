@@ -1,0 +1,19 @@
+[12.834s] Invoking command in '/home/robo2w/ros2_ws/build/robo2w_stuff': PYTHONPATH=/home/robo2w/ros2_ws/build/robo2w_stuff/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo2w/ros2_ws/install/robo2w_stuff/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robo2w/ros2_ws/build/robo2w_stuff/build --no-deps symlink_data
+[16.620s] running develop
+[16.630s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[16.631s]   warnings.warn(
+[18.560s] running egg_info
+[18.563s] writing robo2w_stuff.egg-info/PKG-INFO
+[18.566s] writing dependency_links to robo2w_stuff.egg-info/dependency_links.txt
+[18.568s] writing entry points to robo2w_stuff.egg-info/entry_points.txt
+[18.570s] writing requirements to robo2w_stuff.egg-info/requires.txt
+[18.572s] writing top-level names to robo2w_stuff.egg-info/top_level.txt
+[18.593s] reading manifest file 'robo2w_stuff.egg-info/SOURCES.txt'
+[18.604s] writing manifest file 'robo2w_stuff.egg-info/SOURCES.txt'
+[18.626s] running build_ext
+[18.628s] Creating /home/robo2w/ros2_ws/install/robo2w_stuff/lib/python3.10/site-packages/robo2w-stuff.egg-link (link to .)
+[18.639s] Installing led_node script to /home/robo2w/ros2_ws/install/robo2w_stuff/lib/robo2w_stuff
+[18.643s] 
+[18.644s] Installed /home/robo2w/ros2_ws/build/robo2w_stuff
+[18.645s] running symlink_data
+[18.992s] Invoked command in '/home/robo2w/ros2_ws/build/robo2w_stuff' returned '0': PYTHONPATH=/home/robo2w/ros2_ws/build/robo2w_stuff/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo2w/ros2_ws/install/robo2w_stuff/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robo2w/ros2_ws/build/robo2w_stuff/build --no-deps symlink_data

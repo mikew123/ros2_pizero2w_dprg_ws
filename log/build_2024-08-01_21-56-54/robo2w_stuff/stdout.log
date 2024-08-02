@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing robo2w_stuff.egg-info/PKG-INFO
+writing dependency_links to robo2w_stuff.egg-info/dependency_links.txt
+writing entry points to robo2w_stuff.egg-info/entry_points.txt
+writing requirements to robo2w_stuff.egg-info/requires.txt
+writing top-level names to robo2w_stuff.egg-info/top_level.txt
+reading manifest file 'robo2w_stuff.egg-info/SOURCES.txt'
+writing manifest file 'robo2w_stuff.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robo2w/ros2_ws/install/robo2w_stuff/lib/python3.10/site-packages/robo2w-stuff.egg-link (link to .)
+Installing led_node script to /home/robo2w/ros2_ws/install/robo2w_stuff/lib/robo2w_stuff
+
+Installed /home/robo2w/ros2_ws/build/robo2w_stuff
+running symlink_data

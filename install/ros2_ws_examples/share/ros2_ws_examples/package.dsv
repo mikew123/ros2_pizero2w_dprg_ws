@@ -4,6 +4,3 @@ source;share/ros2_ws_examples/hook/pythonpath.sh
 source;share/ros2_ws_examples/hook/ament_prefix_path.ps1
 source;share/ros2_ws_examples/hook/ament_prefix_path.dsv
 source;share/ros2_ws_examples/hook/ament_prefix_path.sh
-source;../../build/ros2_ws_examples/share/ros2_ws_examples/hook/pythonpath_develop.ps1
-source;../../build/ros2_ws_examples/share/ros2_ws_examples/hook/pythonpath_develop.dsv
-source;../../build/ros2_ws_examples/share/ros2_ws_examples/hook/pythonpath_develop.sh

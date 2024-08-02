@@ -1,0 +1,3 @@
+[console_scripts]
+led_node = robo2w_stuff.led_node:main
+

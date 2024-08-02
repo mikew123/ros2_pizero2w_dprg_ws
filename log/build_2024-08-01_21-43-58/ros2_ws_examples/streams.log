@@ -1,0 +1,38 @@
+[11.114s] Invoking command in '/home/robo2w/ros2_ws/build/ros2_ws_examples': PYTHONPATH=/home/robo2w/ros2_ws/build/ros2_ws_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/robo2w/ros2_ws/build/ros2_ws_examples/build
+[14.383s] running develop
+[14.393s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[14.395s]   warnings.warn(
+[16.267s] Removing /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2-ws-examples.egg-link (link to .)
+[16.553s] Invoked command in '/home/robo2w/ros2_ws/build/ros2_ws_examples' returned '0': PYTHONPATH=/home/robo2w/ros2_ws/build/ros2_ws_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/robo2w/ros2_ws/build/ros2_ws_examples/build
+[16.572s] Invoking command in '/home/robo2w/ros2_ws/src/ros2_ws_examples': PYTHONPATH=/home/robo2w/ros2_ws/build/ros2_ws_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_ws_examples build --build-base /home/robo2w/ros2_ws/build/ros2_ws_examples/build install --record /home/robo2w/ros2_ws/build/ros2_ws_examples/install.log --single-version-externally-managed install_data --force
+[19.162s] running egg_info
+[19.164s] writing ../../build/ros2_ws_examples/ros2_ws_examples.egg-info/PKG-INFO
+[19.166s] writing dependency_links to ../../build/ros2_ws_examples/ros2_ws_examples.egg-info/dependency_links.txt
+[19.168s] writing entry points to ../../build/ros2_ws_examples/ros2_ws_examples.egg-info/entry_points.txt
+[19.170s] writing requirements to ../../build/ros2_ws_examples/ros2_ws_examples.egg-info/requires.txt
+[19.172s] writing top-level names to ../../build/ros2_ws_examples/ros2_ws_examples.egg-info/top_level.txt
+[19.190s] reading manifest file '../../build/ros2_ws_examples/ros2_ws_examples.egg-info/SOURCES.txt'
+[19.204s] writing manifest file '../../build/ros2_ws_examples/ros2_ws_examples.egg-info/SOURCES.txt'
+[19.205s] running build
+[19.206s] running build_py
+[19.211s] copying ros2_ws_examples/listener.py -> /home/robo2w/ros2_ws/build/ros2_ws_examples/build/lib/ros2_ws_examples
+[19.214s] copying ros2_ws_examples/talker.py -> /home/robo2w/ros2_ws/build/ros2_ws_examples/build/lib/ros2_ws_examples
+[19.218s] running install
+[19.221s] running install_lib
+[19.228s] creating /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2_ws_examples
+[19.230s] copying /home/robo2w/ros2_ws/build/ros2_ws_examples/build/lib/ros2_ws_examples/__init__.py -> /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2_ws_examples
+[19.231s] copying /home/robo2w/ros2_ws/build/ros2_ws_examples/build/lib/ros2_ws_examples/listener.py -> /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2_ws_examples
+[19.233s] copying /home/robo2w/ros2_ws/build/ros2_ws_examples/build/lib/ros2_ws_examples/talker.py -> /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2_ws_examples
+[19.239s] byte-compiling /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2_ws_examples/__init__.py to __init__.cpython-310.pyc
+[19.242s] byte-compiling /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2_ws_examples/listener.py to listener.cpython-310.pyc
+[19.246s] byte-compiling /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2_ws_examples/talker.py to talker.cpython-310.pyc
+[19.250s] running install_data
+[19.254s] copying resource/ros2_ws_examples -> /home/robo2w/ros2_ws/install/ros2_ws_examples/share/ament_index/resource_index/packages
+[19.258s] copying package.xml -> /home/robo2w/ros2_ws/install/ros2_ws_examples/share/ros2_ws_examples
+[19.260s] running install_egg_info
+[19.278s] Copying ../../build/ros2_ws_examples/ros2_ws_examples.egg-info to /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2_ws_examples-0.0.0-py3.10.egg-info
+[19.293s] running install_scripts
+[19.494s] Installing listener script to /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/ros2_ws_examples
+[19.496s] Installing talker script to /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/ros2_ws_examples
+[19.499s] writing list of installed files to '/home/robo2w/ros2_ws/build/ros2_ws_examples/install.log'
+[19.764s] Invoked command in '/home/robo2w/ros2_ws/src/ros2_ws_examples' returned '0': PYTHONPATH=/home/robo2w/ros2_ws/build/ros2_ws_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_ws_examples build --build-base /home/robo2w/ros2_ws/build/ros2_ws_examples/build install --record /home/robo2w/ros2_ws/build/ros2_ws_examples/install.log --single-version-externally-managed install_data --force

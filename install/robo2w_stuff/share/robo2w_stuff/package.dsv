@@ -1,0 +1,9 @@
+source;share/robo2w_stuff/hook/pythonpath.ps1
+source;share/robo2w_stuff/hook/pythonpath.dsv
+source;share/robo2w_stuff/hook/pythonpath.sh
+source;share/robo2w_stuff/hook/ament_prefix_path.ps1
+source;share/robo2w_stuff/hook/ament_prefix_path.dsv
+source;share/robo2w_stuff/hook/ament_prefix_path.sh
+source;../../build/robo2w_stuff/share/robo2w_stuff/hook/pythonpath_develop.ps1
+source;../../build/robo2w_stuff/share/robo2w_stuff/hook/pythonpath_develop.dsv
+source;../../build/robo2w_stuff/share/robo2w_stuff/hook/pythonpath_develop.sh

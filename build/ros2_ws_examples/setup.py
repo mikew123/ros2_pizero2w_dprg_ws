@@ -1,1 +1,0 @@
-/home/robo2w/ros2_ws/src/ros2_ws_examples/setup.py

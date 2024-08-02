@@ -1,0 +1,275 @@
+[0.000000] (-) TimerEvent: {}
+[0.003087] (robo2w_stuff) JobQueued: {'identifier': 'robo2w_stuff', 'dependencies': OrderedDict()}
+[0.003995] (ros2_ws_examples) JobQueued: {'identifier': 'ros2_ws_examples', 'dependencies': OrderedDict()}
+[0.004450] (robo2w_stuff) JobStarted: {'identifier': 'robo2w_stuff'}
+[0.095825] (-) TimerEvent: {}
+[0.110655] (ros2_ws_examples) JobStarted: {'identifier': 'ros2_ws_examples'}
+[0.196174] (-) TimerEvent: {}
+[0.297519] (-) TimerEvent: {}
+[0.398863] (-) TimerEvent: {}
+[0.500103] (-) TimerEvent: {}
+[0.601412] (-) TimerEvent: {}
+[0.702749] (-) TimerEvent: {}
+[0.804041] (-) TimerEvent: {}
+[0.905278] (-) TimerEvent: {}
+[1.006579] (-) TimerEvent: {}
+[1.107843] (-) TimerEvent: {}
+[1.209040] (-) TimerEvent: {}
+[1.310351] (-) TimerEvent: {}
+[1.411660] (-) TimerEvent: {}
+[1.512972] (-) TimerEvent: {}
+[1.614242] (-) TimerEvent: {}
+[1.715587] (-) TimerEvent: {}
+[1.816787] (-) TimerEvent: {}
+[1.917989] (-) TimerEvent: {}
+[2.019299] (-) TimerEvent: {}
+[2.120562] (-) TimerEvent: {}
+[2.221873] (-) TimerEvent: {}
+[2.323198] (-) TimerEvent: {}
+[2.424507] (-) TimerEvent: {}
+[2.525939] (-) TimerEvent: {}
+[2.627517] (-) TimerEvent: {}
+[2.728822] (-) TimerEvent: {}
+[2.830160] (-) TimerEvent: {}
+[2.931635] (-) TimerEvent: {}
+[3.033246] (-) TimerEvent: {}
+[3.135014] (-) TimerEvent: {}
+[3.236266] (-) TimerEvent: {}
+[3.337582] (-) TimerEvent: {}
+[3.438923] (-) TimerEvent: {}
+[3.540258] (-) TimerEvent: {}
+[3.641486] (-) TimerEvent: {}
+[3.742741] (-) TimerEvent: {}
+[3.843964] (-) TimerEvent: {}
+[3.945461] (-) TimerEvent: {}
+[4.046741] (-) TimerEvent: {}
+[4.147977] (-) TimerEvent: {}
+[4.249208] (-) TimerEvent: {}
+[4.350466] (-) TimerEvent: {}
+[4.451789] (-) TimerEvent: {}
+[4.553020] (-) TimerEvent: {}
+[4.654343] (-) TimerEvent: {}
+[4.755679] (-) TimerEvent: {}
+[4.856942] (-) TimerEvent: {}
+[4.958194] (-) TimerEvent: {}
+[5.059571] (-) TimerEvent: {}
+[5.160854] (-) TimerEvent: {}
+[5.262190] (-) TimerEvent: {}
+[5.363551] (-) TimerEvent: {}
+[5.464770] (-) TimerEvent: {}
+[5.566144] (-) TimerEvent: {}
+[5.667720] (-) TimerEvent: {}
+[5.769198] (-) TimerEvent: {}
+[5.870699] (-) TimerEvent: {}
+[5.972468] (-) TimerEvent: {}
+[6.074198] (-) TimerEvent: {}
+[6.175512] (-) TimerEvent: {}
+[6.276953] (-) TimerEvent: {}
+[6.378698] (-) TimerEvent: {}
+[6.480105] (-) TimerEvent: {}
+[6.583262] (-) TimerEvent: {}
+[6.686015] (-) TimerEvent: {}
+[6.787471] (-) TimerEvent: {}
+[6.888851] (-) TimerEvent: {}
+[6.990202] (-) TimerEvent: {}
+[7.093554] (-) TimerEvent: {}
+[7.195088] (-) TimerEvent: {}
+[7.296396] (-) TimerEvent: {}
+[7.397811] (-) TimerEvent: {}
+[7.499468] (-) TimerEvent: {}
+[7.600821] (-) TimerEvent: {}
+[7.702198] (-) TimerEvent: {}
+[7.803678] (-) TimerEvent: {}
+[7.905113] (-) TimerEvent: {}
+[8.006528] (-) TimerEvent: {}
+[8.107907] (-) TimerEvent: {}
+[8.209321] (-) TimerEvent: {}
+[8.310820] (-) TimerEvent: {}
+[8.412237] (-) TimerEvent: {}
+[8.513624] (-) TimerEvent: {}
+[8.615059] (-) TimerEvent: {}
+[8.716405] (-) TimerEvent: {}
+[8.817917] (-) TimerEvent: {}
+[8.919586] (-) TimerEvent: {}
+[9.023258] (-) TimerEvent: {}
+[9.125079] (-) TimerEvent: {}
+[9.227324] (-) TimerEvent: {}
+[9.329378] (-) TimerEvent: {}
+[9.431674] (-) TimerEvent: {}
+[9.533289] (-) TimerEvent: {}
+[9.635067] (-) TimerEvent: {}
+[9.736774] (-) TimerEvent: {}
+[9.838470] (-) TimerEvent: {}
+[9.940121] (-) TimerEvent: {}
+[10.041777] (-) TimerEvent: {}
+[10.143963] (-) TimerEvent: {}
+[10.245523] (-) TimerEvent: {}
+[10.347851] (-) TimerEvent: {}
+[10.449347] (-) TimerEvent: {}
+[10.550825] (-) TimerEvent: {}
+[10.652403] (-) TimerEvent: {}
+[10.753982] (-) TimerEvent: {}
+[10.855437] (-) TimerEvent: {}
+[10.957201] (-) TimerEvent: {}
+[11.059074] (-) TimerEvent: {}
+[11.160907] (-) TimerEvent: {}
+[11.168730] (robo2w_stuff) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robo2w_stuff', 'build', '--build-base', '/home/robo2w/ros2_ws/build/robo2w_stuff/build', 'install', '--record', '/home/robo2w/ros2_ws/build/robo2w_stuff/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/robo2w/ros2_ws/src/robo2w_stuff', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robo2w', 'SSH_CLIENT': '192.168.1.67 51401 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/robo2w', 'OLDPWD': '/home/robo2w/ros2_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'iron', 'LOGNAME': 'robo2w', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robo2w/ros2_ws/build/robo2w_stuff', 'SSH_CONNECTION': '192.168.1.67 51401 192.168.1.221 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robo2w/ros2_ws/build/robo2w_stuff/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo2w/ros2_ws/install/robo2w_stuff/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[11.208116] (ros2_ws_examples) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/robo2w/ros2_ws/build/ros2_ws_examples/build'], 'cwd': '/home/robo2w/ros2_ws/build/ros2_ws_examples', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robo2w', 'SSH_CLIENT': '192.168.1.67 51401 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/robo2w', 'OLDPWD': '/home/robo2w/ros2_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'iron', 'LOGNAME': 'robo2w', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robo2w/ros2_ws/build/ros2_ws_examples', 'SSH_CONNECTION': '192.168.1.67 51401 192.168.1.221 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robo2w/ros2_ws/build/ros2_ws_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[11.261254] (-) TimerEvent: {}
+[11.362751] (-) TimerEvent: {}
+[11.464126] (-) TimerEvent: {}
+[11.565624] (-) TimerEvent: {}
+[11.667370] (-) TimerEvent: {}
+[11.768973] (-) TimerEvent: {}
+[11.871773] (-) TimerEvent: {}
+[11.973184] (-) TimerEvent: {}
+[12.074806] (-) TimerEvent: {}
+[12.176133] (-) TimerEvent: {}
+[12.277619] (-) TimerEvent: {}
+[12.379097] (-) TimerEvent: {}
+[12.480433] (-) TimerEvent: {}
+[12.582078] (-) TimerEvent: {}
+[12.683835] (-) TimerEvent: {}
+[12.785333] (-) TimerEvent: {}
+[12.887058] (-) TimerEvent: {}
+[12.988639] (-) TimerEvent: {}
+[13.090228] (-) TimerEvent: {}
+[13.191774] (-) TimerEvent: {}
+[13.293251] (-) TimerEvent: {}
+[13.394808] (-) TimerEvent: {}
+[13.496445] (-) TimerEvent: {}
+[13.598203] (-) TimerEvent: {}
+[13.699942] (-) TimerEvent: {}
+[13.801546] (-) TimerEvent: {}
+[13.903499] (-) TimerEvent: {}
+[14.005096] (-) TimerEvent: {}
+[14.106636] (-) TimerEvent: {}
+[14.208223] (-) TimerEvent: {}
+[14.253739] (robo2w_stuff) StdoutLine: {'line': b'running egg_info\n'}
+[14.260536] (robo2w_stuff) StdoutLine: {'line': b'creating ../../build/robo2w_stuff/robo2w_stuff.egg-info\n'}
+[14.262201] (robo2w_stuff) StdoutLine: {'line': b'writing ../../build/robo2w_stuff/robo2w_stuff.egg-info/PKG-INFO\n'}
+[14.265185] (robo2w_stuff) StdoutLine: {'line': b'writing dependency_links to ../../build/robo2w_stuff/robo2w_stuff.egg-info/dependency_links.txt\n'}
+[14.266959] (robo2w_stuff) StdoutLine: {'line': b'writing entry points to ../../build/robo2w_stuff/robo2w_stuff.egg-info/entry_points.txt\n'}
+[14.268877] (robo2w_stuff) StdoutLine: {'line': b'writing requirements to ../../build/robo2w_stuff/robo2w_stuff.egg-info/requires.txt\n'}
+[14.270787] (robo2w_stuff) StdoutLine: {'line': b'writing top-level names to ../../build/robo2w_stuff/robo2w_stuff.egg-info/top_level.txt\n'}
+[14.272655] (robo2w_stuff) StdoutLine: {'line': b"writing manifest file '../../build/robo2w_stuff/robo2w_stuff.egg-info/SOURCES.txt'\n"}
+[14.289210] (robo2w_stuff) StdoutLine: {'line': b"reading manifest file '../../build/robo2w_stuff/robo2w_stuff.egg-info/SOURCES.txt'\n"}
+[14.299616] (robo2w_stuff) StdoutLine: {'line': b"writing manifest file '../../build/robo2w_stuff/robo2w_stuff.egg-info/SOURCES.txt'\n"}
+[14.301317] (robo2w_stuff) StdoutLine: {'line': b'running build\n'}
+[14.302587] (robo2w_stuff) StdoutLine: {'line': b'running build_py\n'}
+[14.304455] (robo2w_stuff) StdoutLine: {'line': b'creating /home/robo2w/ros2_ws/build/robo2w_stuff/build\n'}
+[14.305869] (robo2w_stuff) StdoutLine: {'line': b'creating /home/robo2w/ros2_ws/build/robo2w_stuff/build/lib\n'}
+[14.307021] (robo2w_stuff) StdoutLine: {'line': b'creating /home/robo2w/ros2_ws/build/robo2w_stuff/build/lib/robo2w_stuff\n'}
+[14.308410] (-) TimerEvent: {}
+[14.309392] (robo2w_stuff) StdoutLine: {'line': b'copying robo2w_stuff/__init__.py -> /home/robo2w/ros2_ws/build/robo2w_stuff/build/lib/robo2w_stuff\n'}
+[14.311059] (robo2w_stuff) StdoutLine: {'line': b'running install\n'}
+[14.312579] (robo2w_stuff) StdoutLine: {'line': b'running install_lib\n'}
+[14.318670] (robo2w_stuff) StdoutLine: {'line': b'creating /home/robo2w/ros2_ws/install/robo2w_stuff/lib/python3.10/site-packages/robo2w_stuff\n'}
+[14.320286] (robo2w_stuff) StdoutLine: {'line': b'copying /home/robo2w/ros2_ws/build/robo2w_stuff/build/lib/robo2w_stuff/__init__.py -> /home/robo2w/ros2_ws/install/robo2w_stuff/lib/python3.10/site-packages/robo2w_stuff\n'}
+[14.325832] (robo2w_stuff) StdoutLine: {'line': b'byte-compiling /home/robo2w/ros2_ws/install/robo2w_stuff/lib/python3.10/site-packages/robo2w_stuff/__init__.py to __init__.cpython-310.pyc\n'}
+[14.328931] (robo2w_stuff) StdoutLine: {'line': b'running install_data\n'}
+[14.330829] (robo2w_stuff) StdoutLine: {'line': b'creating /home/robo2w/ros2_ws/install/robo2w_stuff/share/ament_index\n'}
+[14.332873] (robo2w_stuff) StdoutLine: {'line': b'creating /home/robo2w/ros2_ws/install/robo2w_stuff/share/ament_index/resource_index\n'}
+[14.334018] (robo2w_stuff) StdoutLine: {'line': b'creating /home/robo2w/ros2_ws/install/robo2w_stuff/share/ament_index/resource_index/packages\n'}
+[14.335296] (robo2w_stuff) StdoutLine: {'line': b'copying resource/robo2w_stuff -> /home/robo2w/ros2_ws/install/robo2w_stuff/share/ament_index/resource_index/packages\n'}
+[14.337011] (robo2w_stuff) StdoutLine: {'line': b'copying package.xml -> /home/robo2w/ros2_ws/install/robo2w_stuff/share/robo2w_stuff\n'}
+[14.338285] (robo2w_stuff) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.356160] (robo2w_stuff) StdoutLine: {'line': b'Copying ../../build/robo2w_stuff/robo2w_stuff.egg-info to /home/robo2w/ros2_ws/install/robo2w_stuff/lib/python3.10/site-packages/robo2w_stuff-0.0.0-py3.10.egg-info\n'}
+[14.371174] (robo2w_stuff) StdoutLine: {'line': b'running install_scripts\n'}
+[14.408747] (-) TimerEvent: {}
+[14.494015] (ros2_ws_examples) StdoutLine: {'line': b'running develop\n'}
+[14.504201] (ros2_ws_examples) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[14.505834] (ros2_ws_examples) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.509053] (-) TimerEvent: {}
+[14.587290] (robo2w_stuff) StdoutLine: {'line': b"writing list of installed files to '/home/robo2w/ros2_ws/build/robo2w_stuff/install.log'\n"}
+[14.609428] (-) TimerEvent: {}
+[14.710932] (-) TimerEvent: {}
+[14.812495] (-) TimerEvent: {}
+[14.878281] (robo2w_stuff) CommandEnded: {'returncode': 0}
+[14.913869] (-) TimerEvent: {}
+[15.020483] (-) TimerEvent: {}
+[15.027050] (robo2w_stuff) JobEnded: {'identifier': 'robo2w_stuff', 'rc': 0}
+[15.120760] (-) TimerEvent: {}
+[15.221987] (-) TimerEvent: {}
+[15.323277] (-) TimerEvent: {}
+[15.424475] (-) TimerEvent: {}
+[15.525669] (-) TimerEvent: {}
+[15.626921] (-) TimerEvent: {}
+[15.728116] (-) TimerEvent: {}
+[15.829309] (-) TimerEvent: {}
+[15.930640] (-) TimerEvent: {}
+[16.031836] (-) TimerEvent: {}
+[16.133114] (-) TimerEvent: {}
+[16.234330] (-) TimerEvent: {}
+[16.335642] (-) TimerEvent: {}
+[16.378379] (ros2_ws_examples) StdoutLine: {'line': b'Removing /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2-ws-examples.egg-link (link to .)\n'}
+[16.435982] (-) TimerEvent: {}
+[16.537362] (-) TimerEvent: {}
+[16.638834] (-) TimerEvent: {}
+[16.663734] (ros2_ws_examples) CommandEnded: {'returncode': 0}
+[16.676994] (ros2_ws_examples) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_ws_examples', 'build', '--build-base', '/home/robo2w/ros2_ws/build/ros2_ws_examples/build', 'install', '--record', '/home/robo2w/ros2_ws/build/ros2_ws_examples/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/robo2w/ros2_ws/src/ros2_ws_examples', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robo2w', 'SSH_CLIENT': '192.168.1.67 51401 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/robo2w', 'OLDPWD': '/home/robo2w/ros2_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'iron', 'LOGNAME': 'robo2w', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robo2w/ros2_ws/build/ros2_ws_examples', 'SSH_CONNECTION': '192.168.1.67 51401 192.168.1.221 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robo2w/ros2_ws/build/ros2_ws_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[16.739107] (-) TimerEvent: {}
+[16.840346] (-) TimerEvent: {}
+[16.941576] (-) TimerEvent: {}
+[17.042844] (-) TimerEvent: {}
+[17.144059] (-) TimerEvent: {}
+[17.245337] (-) TimerEvent: {}
+[17.346685] (-) TimerEvent: {}
+[17.447912] (-) TimerEvent: {}
+[17.549089] (-) TimerEvent: {}
+[17.650291] (-) TimerEvent: {}
+[17.751562] (-) TimerEvent: {}
+[17.852759] (-) TimerEvent: {}
+[17.953986] (-) TimerEvent: {}
+[18.055289] (-) TimerEvent: {}
+[18.156494] (-) TimerEvent: {}
+[18.257778] (-) TimerEvent: {}
+[18.359123] (-) TimerEvent: {}
+[18.460341] (-) TimerEvent: {}
+[18.561491] (-) TimerEvent: {}
+[18.662816] (-) TimerEvent: {}
+[18.764022] (-) TimerEvent: {}
+[18.865274] (-) TimerEvent: {}
+[18.966579] (-) TimerEvent: {}
+[19.067778] (-) TimerEvent: {}
+[19.168984] (-) TimerEvent: {}
+[19.263574] (ros2_ws_examples) StdoutLine: {'line': b'running egg_info\n'}
+[19.274458] (-) TimerEvent: {}
+[19.275630] (ros2_ws_examples) StdoutLine: {'line': b'writing ../../build/ros2_ws_examples/ros2_ws_examples.egg-info/PKG-INFO\n'}
+[19.277607] (ros2_ws_examples) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_ws_examples/ros2_ws_examples.egg-info/dependency_links.txt\n'}
+[19.279651] (ros2_ws_examples) StdoutLine: {'line': b'writing entry points to ../../build/ros2_ws_examples/ros2_ws_examples.egg-info/entry_points.txt\n'}
+[19.281603] (ros2_ws_examples) StdoutLine: {'line': b'writing requirements to ../../build/ros2_ws_examples/ros2_ws_examples.egg-info/requires.txt\n'}
+[19.283188] (ros2_ws_examples) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_ws_examples/ros2_ws_examples.egg-info/top_level.txt\n'}
+[19.301765] (ros2_ws_examples) StdoutLine: {'line': b"reading manifest file '../../build/ros2_ws_examples/ros2_ws_examples.egg-info/SOURCES.txt'\n"}
+[19.315262] (ros2_ws_examples) StdoutLine: {'line': b"writing manifest file '../../build/ros2_ws_examples/ros2_ws_examples.egg-info/SOURCES.txt'\n"}
+[19.316773] (ros2_ws_examples) StdoutLine: {'line': b'running build\n'}
+[19.317851] (ros2_ws_examples) StdoutLine: {'line': b'running build_py\n'}
+[19.321804] (ros2_ws_examples) StdoutLine: {'line': b'copying ros2_ws_examples/listener.py -> /home/robo2w/ros2_ws/build/ros2_ws_examples/build/lib/ros2_ws_examples\n'}
+[19.325008] (ros2_ws_examples) StdoutLine: {'line': b'copying ros2_ws_examples/talker.py -> /home/robo2w/ros2_ws/build/ros2_ws_examples/build/lib/ros2_ws_examples\n'}
+[19.328936] (ros2_ws_examples) StdoutLine: {'line': b'running install\n'}
+[19.331940] (ros2_ws_examples) StdoutLine: {'line': b'running install_lib\n'}
+[19.339813] (ros2_ws_examples) StdoutLine: {'line': b'creating /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2_ws_examples\n'}
+[19.341293] (ros2_ws_examples) StdoutLine: {'line': b'copying /home/robo2w/ros2_ws/build/ros2_ws_examples/build/lib/ros2_ws_examples/__init__.py -> /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2_ws_examples\n'}
+[19.342805] (ros2_ws_examples) StdoutLine: {'line': b'copying /home/robo2w/ros2_ws/build/ros2_ws_examples/build/lib/ros2_ws_examples/listener.py -> /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2_ws_examples\n'}
+[19.344712] (ros2_ws_examples) StdoutLine: {'line': b'copying /home/robo2w/ros2_ws/build/ros2_ws_examples/build/lib/ros2_ws_examples/talker.py -> /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2_ws_examples\n'}
+[19.350309] (ros2_ws_examples) StdoutLine: {'line': b'byte-compiling /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2_ws_examples/__init__.py to __init__.cpython-310.pyc\n'}
+[19.353210] (ros2_ws_examples) StdoutLine: {'line': b'byte-compiling /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2_ws_examples/listener.py to listener.cpython-310.pyc\n'}
+[19.357479] (ros2_ws_examples) StdoutLine: {'line': b'byte-compiling /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2_ws_examples/talker.py to talker.cpython-310.pyc\n'}
+[19.361726] (ros2_ws_examples) StdoutLine: {'line': b'running install_data\n'}
+[19.365053] (ros2_ws_examples) StdoutLine: {'line': b'copying resource/ros2_ws_examples -> /home/robo2w/ros2_ws/install/ros2_ws_examples/share/ament_index/resource_index/packages\n'}
+[19.369463] (ros2_ws_examples) StdoutLine: {'line': b'copying package.xml -> /home/robo2w/ros2_ws/install/ros2_ws_examples/share/ros2_ws_examples\n'}
+[19.370912] (ros2_ws_examples) StdoutLine: {'line': b'running install_egg_info\n'}
+[19.374738] (-) TimerEvent: {}
+[19.389546] (ros2_ws_examples) StdoutLine: {'line': b'Copying ../../build/ros2_ws_examples/ros2_ws_examples.egg-info to /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/python3.10/site-packages/ros2_ws_examples-0.0.0-py3.10.egg-info\n'}
+[19.404865] (ros2_ws_examples) StdoutLine: {'line': b'running install_scripts\n'}
+[19.475072] (-) TimerEvent: {}
+[19.576415] (-) TimerEvent: {}
+[19.604914] (ros2_ws_examples) StdoutLine: {'line': b'Installing listener script to /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/ros2_ws_examples\n'}
+[19.606863] (ros2_ws_examples) StdoutLine: {'line': b'Installing talker script to /home/robo2w/ros2_ws/install/ros2_ws_examples/lib/ros2_ws_examples\n'}
+[19.610857] (ros2_ws_examples) StdoutLine: {'line': b"writing list of installed files to '/home/robo2w/ros2_ws/build/ros2_ws_examples/install.log'\n"}
+[19.676798] (-) TimerEvent: {}
+[19.778207] (-) TimerEvent: {}
+[19.871940] (ros2_ws_examples) CommandEnded: {'returncode': 0}
+[19.878386] (-) TimerEvent: {}
+[19.946152] (ros2_ws_examples) JobEnded: {'identifier': 'ros2_ws_examples', 'rc': 0}
+[19.953067] (-) EventReactorShutdown: {}
