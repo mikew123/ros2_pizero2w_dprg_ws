@@ -81,3 +81,5 @@ In another SSH terminal enter:</br>
 
 The sensor distances are shown in the terminal.</br>
 
+<image src="images/Schematic_DPRG_ros_demo_2024-08-23.pdf"></br>
+
