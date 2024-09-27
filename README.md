@@ -16,10 +16,13 @@ Wait many minutes for it to flash, then install on the Pi Zero board and power i
 It will take many minutes to initally boot and there is no light that flashes to let you know when so wait 10 minutes.</br>
 You should be able to SSH into the Pi Zero using a Windows power shell window "ssh robo2w@robo2w.local", enter password.
 .... You should get a prompt like "robo2w@robo2w>".</br>
-We will need to add 4G of swap memory to make the Pi Zero run smoothly. Use the tutorial <https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-20-04> select 500M of swap OR <https://linuxize.com/post/how-to-add-swap-space-on-ubuntu-20-04/></br>
+We will need to add swap memory to make the Pi Zero run smoothly. Use the tutorial <https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-20-04> select 500M of swap OR <https://linuxize.com/post/how-to-add-swap-space-on-ubuntu-20-04/></br>
+If you are having issues connecting to wifi you can use a serial cable on pins 6 (Gnd), 8 & 10 and they will see the output of boot, (115200 baud) and will have a serial console to log into in case the device doesn't come up on the net for some reason, or to find out what the IP address is.</br>
+## Update and reboot
+Remember to apt update/upgrade and reboot after initial Ubuntu installation</br>
 ## ROS2 Iron installation
 Use this tutorial to install ROS2 Iron</br>
-<https://docs.ros.org/en/iron/Installation/Alternatives/Ubuntu-Development-Setup.html>
+<https://docs.ros.org/en/iron/Installation/Ubuntu-Install-Debs.html>
 ## Clone this repo for the ROS2 nodes
 In the user home directory (cd ~) clone this demo repository to make things simple:</br>
 - git clone https://github.com/mikew123/ros2_pizero2w_dprg_ws.git</br>
